@@ -4048,19 +4048,63 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
       firstValue: null,
       secondValue: null,
-      blesk50: null,
-      blesk100: null,
-      blesk300: null,
-      blesk500: null,
-      blesk1000: null,
-      blesk3000: null,
-      blesk5000: null,
-      blesk10000: null,
+      vizitki: {
+        blesk50: null,
+        blesk100: null,
+        blesk300: null,
+        blesk500: null,
+        blesk1000: null,
+        blesk3000: null,
+        blesk5000: null,
+        blesk10000: null
+      },
+      flaer_evro: {
+        blesk50: null,
+        blesk100: null,
+        blesk300: null,
+        blesk500: null,
+        blesk1000: null,
+        blesk3000: null,
+        blesk5000: null,
+        blesk10000: null
+      },
+      flaer_a6: {
+        blesk50: null,
+        blesk100: null,
+        blesk300: null,
+        blesk500: null,
+        blesk1000: null,
+        blesk3000: null,
+        blesk5000: null,
+        blesk10000: null
+      },
+      flaer_a5: {
+        blesk50: null,
+        blesk100: null,
+        blesk300: null,
+        blesk500: null,
+        blesk1000: null,
+        blesk3000: null,
+        blesk5000: null,
+        blesk10000: null
+      },
+      poster_a4: {
+        blesk50: null,
+        blesk100: null,
+        blesk300: null,
+        blesk500: null,
+        blesk1000: null,
+        blesk3000: null,
+        blesk5000: null,
+        blesk10000: null
+      },
       totalValue: ''
     };
   },
@@ -4070,6 +4114,822 @@ __webpack_require__.r(__webpack_exports__);
     },
     multiply: function multiply() {
       this.totalValue = parseInt(this.firstValue) * parseInt(this.secondValue);
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/CellInput.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/CellInput.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      card50: [{
+        name: 'по 80',
+        price: 300,
+        active: false
+      }, {
+        name: 'по 100',
+        price: 400,
+        active: false
+      }, {
+        name: 'по 200',
+        price: 250,
+        active: false
+      }, {
+        name: 'по 220',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }],
+      card100: [{
+        name: 'по 80',
+        price: 300,
+        active: false
+      }, {
+        name: 'по 100',
+        price: 400,
+        active: false
+      }, {
+        name: 'по 200',
+        price: 250,
+        active: false
+      }, {
+        name: 'по 220',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }],
+      card300: [{
+        name: 'по 80',
+        price: 300,
+        active: false
+      }, {
+        name: 'по 100',
+        price: 400,
+        active: false
+      }, {
+        name: 'по 200',
+        price: 250,
+        active: false
+      }, {
+        name: 'по 220',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }],
+      card500: [{
+        name: 'по 80',
+        price: 300,
+        active: false
+      }, {
+        name: 'по 100',
+        price: 400,
+        active: false
+      }, {
+        name: 'по 200',
+        price: 250,
+        active: false
+      }, {
+        name: 'по 220',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }],
+      card1000: [{
+        name: 'по 80',
+        price: 300,
+        active: false
+      }, {
+        name: 'по 100',
+        price: 400,
+        active: false
+      }, {
+        name: 'по 200',
+        price: 250,
+        active: false
+      }, {
+        name: 'по 220',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }],
+      card3000: [{
+        name: 'по 80',
+        price: 300,
+        active: false
+      }, {
+        name: 'по 100',
+        price: 400,
+        active: false
+      }, {
+        name: 'по 200',
+        price: 250,
+        active: false
+      }, {
+        name: 'по 220',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }],
+      card5000: [{
+        name: 'по 80',
+        price: 300,
+        active: false
+      }, {
+        name: 'по 100',
+        price: 400,
+        active: false
+      }, {
+        name: 'по 200',
+        price: 250,
+        active: false
+      }, {
+        name: 'по 220',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }],
+      card10000: [{
+        name: 'по 80',
+        price: 300,
+        active: false
+      }, {
+        name: 'по 100',
+        price: 400,
+        active: false
+      }, {
+        name: 'по 200',
+        price: 250,
+        active: false
+      }, {
+        name: 'по 220',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }],
+      flaerEvro50: [{
+        name: 'по 80',
+        price: 300,
+        active: false
+      }, {
+        name: 'по 100',
+        price: 400,
+        active: false
+      }, {
+        name: 'по 200',
+        price: 250,
+        active: false
+      }, {
+        name: 'по 220',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }],
+      flaerEvro100: [{
+        name: 'по 80',
+        price: 300,
+        active: false
+      }, {
+        name: 'по 100',
+        price: 400,
+        active: false
+      }, {
+        name: 'по 200',
+        price: 250,
+        active: false
+      }, {
+        name: 'по 220',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }],
+      flaerEvro300: [{
+        name: 'по 80',
+        price: 300,
+        active: false
+      }, {
+        name: 'по 100',
+        price: 400,
+        active: false
+      }, {
+        name: 'по 200',
+        price: 250,
+        active: false
+      }, {
+        name: 'по 220',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }],
+      flaerEvro500: [{
+        name: 'по 80',
+        price: 300,
+        active: false
+      }, {
+        name: 'по 100',
+        price: 400,
+        active: false
+      }, {
+        name: 'по 200',
+        price: 250,
+        active: false
+      }, {
+        name: 'по 220',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }],
+      flaerEvro1000: [{
+        name: 'по 80',
+        price: 300,
+        active: false
+      }, {
+        name: 'по 100',
+        price: 400,
+        active: false
+      }, {
+        name: 'по 200',
+        price: 250,
+        active: false
+      }, {
+        name: 'по 220',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }],
+      flaerEvro3000: [{
+        name: 'по 80',
+        price: 300,
+        active: false
+      }, {
+        name: 'по 100',
+        price: 400,
+        active: false
+      }, {
+        name: 'по 200',
+        price: 250,
+        active: false
+      }, {
+        name: 'по 220',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }],
+      flaerEvro5000: [{
+        name: 'по 80',
+        price: 300,
+        active: false
+      }, {
+        name: 'по 100',
+        price: 400,
+        active: false
+      }, {
+        name: 'по 200',
+        price: 250,
+        active: false
+      }, {
+        name: 'по 220',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }],
+      flaerEvro10000: [{
+        name: 'по 80',
+        price: 300,
+        active: false
+      }, {
+        name: 'по 100',
+        price: 400,
+        active: false
+      }, {
+        name: 'по 200',
+        price: 250,
+        active: false
+      }, {
+        name: 'по 220',
+        price: 220,
+        active: false
+      }, {
+        name: 'по 250',
+        price: 220,
+        active: false
+      }]
+    };
+  },
+  methods: {
+    toggleActive: function toggleActive(s) {
+      s.active = !s.active;
+    },
+    totalCards: function totalCards() {
+      var total = 0;
+      this.card50.forEach(function (s) {
+        if (s.active) {
+          total += s.price;
+        }
+      });
+      this.card100.forEach(function (s) {
+        if (s.active) {
+          total += s.price;
+        }
+      });
+      this.card300.forEach(function (s) {
+        if (s.active) {
+          total += s.price;
+        }
+      });
+      this.card500.forEach(function (s) {
+        if (s.active) {
+          total += s.price;
+        }
+      });
+      this.card1000.forEach(function (s) {
+        if (s.active) {
+          total += s.price;
+        }
+      });
+      this.card3000.forEach(function (s) {
+        if (s.active) {
+          total += s.price;
+        }
+      });
+      this.card5000.forEach(function (s) {
+        if (s.active) {
+          total += s.price;
+        }
+      });
+      this.card10000.forEach(function (s) {
+        if (s.active) {
+          total += s.price;
+        }
+      });
+      return total;
+    },
+    totalFlaerEvro: function totalFlaerEvro() {
+      var total = 0;
+      this.flaerEvro50.forEach(function (s) {
+        if (s.active) {
+          total += s.price;
+        }
+      });
+      this.flaerEvro100.forEach(function (s) {
+        if (s.active) {
+          total += s.price;
+        }
+      });
+      this.flaerEvro300.forEach(function (s) {
+        if (s.active) {
+          total += s.price;
+        }
+      });
+      this.flaerEvro500.forEach(function (s) {
+        if (s.active) {
+          total += s.price;
+        }
+      });
+      this.flaerEvro1000.forEach(function (s) {
+        if (s.active) {
+          total += s.price;
+        }
+      });
+      this.flaerEvro3000.forEach(function (s) {
+        if (s.active) {
+          total += s.price;
+        }
+      });
+      this.flaerEvro5000.forEach(function (s) {
+        if (s.active) {
+          total += s.price;
+        }
+      });
+      this.flaerEvro10000.forEach(function (s) {
+        if (s.active) {
+          total += s.price;
+        }
+      });
+      return total;
     }
   }
 });
@@ -54367,6 +55227,736 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/CellInput.vue?vue&type=template&id=302411ad&":
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/CellInput.vue?vue&type=template&id=302411ad& ***!
+  \************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { attrs: { id: "main" } }, [
+    _c("h1", { staticClass: "heading" }, [_vm._v("Калькулятор")]),
+    _vm._v(" "),
+    _c("ul", { staticClass: "services" }, [
+      _c("table", [
+        _vm._m(0),
+        _vm._v(" "),
+        _c(
+          "td",
+          [
+            _vm._m(1),
+            _vm._v(" "),
+            _vm._l(_vm.card50, function(card) {
+              return _c(
+                "li",
+                {
+                  staticClass: "services__item",
+                  class: { active: card.active },
+                  on: {
+                    click: function($event) {
+                      return _vm.toggleActive(card)
+                    }
+                  }
+                },
+                [
+                  _c("span", [_vm._v(_vm._s(card.name))]),
+                  _vm._v(" "),
+                  _c("span", [_vm._v(_vm._s(card.price))])
+                ]
+              )
+            })
+          ],
+          2
+        ),
+        _vm._v(" "),
+        _c(
+          "td",
+          [
+            _vm._m(2),
+            _vm._v(" "),
+            _vm._l(_vm.card100, function(card) {
+              return _c(
+                "li",
+                {
+                  staticClass: "services__item",
+                  class: { active: card.active },
+                  on: {
+                    click: function($event) {
+                      return _vm.toggleActive(card)
+                    }
+                  }
+                },
+                [
+                  _c("span", [_vm._v(_vm._s(card.name))]),
+                  _vm._v(" "),
+                  _c("span", [_vm._v(_vm._s(card.price))])
+                ]
+              )
+            })
+          ],
+          2
+        ),
+        _vm._v(" "),
+        _c(
+          "td",
+          [
+            _vm._m(3),
+            _vm._v(" "),
+            _vm._l(_vm.card300, function(card) {
+              return _c(
+                "li",
+                {
+                  staticClass: "services__item",
+                  class: { active: card.active },
+                  on: {
+                    click: function($event) {
+                      return _vm.toggleActive(card)
+                    }
+                  }
+                },
+                [
+                  _c("span", [_vm._v(_vm._s(card.name))]),
+                  _vm._v(" "),
+                  _c("span", [_vm._v(_vm._s(card.price))])
+                ]
+              )
+            })
+          ],
+          2
+        ),
+        _vm._v(" "),
+        _c(
+          "td",
+          [
+            _vm._m(4),
+            _vm._v(" "),
+            _vm._l(_vm.card500, function(card) {
+              return _c(
+                "li",
+                {
+                  staticClass: "services__item",
+                  class: { active: card.active },
+                  on: {
+                    click: function($event) {
+                      return _vm.toggleActive(card)
+                    }
+                  }
+                },
+                [
+                  _c("span", [_vm._v(_vm._s(card.name))]),
+                  _vm._v(" "),
+                  _c("span", [_vm._v(_vm._s(card.price))])
+                ]
+              )
+            })
+          ],
+          2
+        ),
+        _vm._v(" "),
+        _c(
+          "td",
+          [
+            _vm._m(5),
+            _vm._v(" "),
+            _vm._l(_vm.card1000, function(card) {
+              return _c(
+                "li",
+                {
+                  staticClass: "services__item",
+                  class: { active: card.active },
+                  on: {
+                    click: function($event) {
+                      return _vm.toggleActive(card)
+                    }
+                  }
+                },
+                [
+                  _c("span", [_vm._v(_vm._s(card.name))]),
+                  _vm._v(" "),
+                  _c("span", [_vm._v(_vm._s(card.price))])
+                ]
+              )
+            })
+          ],
+          2
+        ),
+        _vm._v(" "),
+        _c(
+          "td",
+          [
+            _vm._m(6),
+            _vm._v(" "),
+            _vm._l(_vm.card3000, function(card) {
+              return _c(
+                "li",
+                {
+                  staticClass: "services__item",
+                  class: { active: card.active },
+                  on: {
+                    click: function($event) {
+                      return _vm.toggleActive(card)
+                    }
+                  }
+                },
+                [
+                  _c("span", [_vm._v(_vm._s(card.name))]),
+                  _vm._v(" "),
+                  _c("span", [_vm._v(_vm._s(card.price))])
+                ]
+              )
+            })
+          ],
+          2
+        ),
+        _vm._v(" "),
+        _c(
+          "td",
+          [
+            _vm._m(7),
+            _vm._v(" "),
+            _vm._l(_vm.card5000, function(card) {
+              return _c(
+                "li",
+                {
+                  staticClass: "services__item",
+                  class: { active: card.active },
+                  on: {
+                    click: function($event) {
+                      return _vm.toggleActive(card)
+                    }
+                  }
+                },
+                [
+                  _c("span", [_vm._v(_vm._s(card.name))]),
+                  _vm._v(" "),
+                  _c("span", [_vm._v(_vm._s(card.price))])
+                ]
+              )
+            })
+          ],
+          2
+        ),
+        _vm._v(" "),
+        _c(
+          "td",
+          [
+            _vm._m(8),
+            _vm._v(" "),
+            _vm._l(_vm.card10000, function(card) {
+              return _c(
+                "li",
+                {
+                  staticClass: "services__item",
+                  class: { active: card.active },
+                  on: {
+                    click: function($event) {
+                      return _vm.toggleActive(card)
+                    }
+                  }
+                },
+                [
+                  _c("span", [_vm._v(_vm._s(card.name))]),
+                  _vm._v(" "),
+                  _c("span", [_vm._v(_vm._s(card.price))])
+                ]
+              )
+            })
+          ],
+          2
+        )
+      ])
+    ]),
+    _vm._v(" "),
+    _c("p", { staticClass: "total" }, [
+      _c("span", [_vm._v("Итого за визитки:")]),
+      _vm._v(" "),
+      _c("span", [_vm._v(_vm._s(_vm.totalCards()))])
+    ]),
+    _vm._v(" "),
+    _c("ul", { staticClass: "services" }, [
+      _c("table", [
+        _vm._m(9),
+        _vm._v(" "),
+        _c(
+          "td",
+          [
+            _vm._m(10),
+            _vm._v(" "),
+            _vm._l(_vm.flaerEvro50, function(flaer) {
+              return _c(
+                "li",
+                {
+                  staticClass: "services__item",
+                  class: { active: flaer.active },
+                  on: {
+                    click: function($event) {
+                      return _vm.toggleActive(flaer)
+                    }
+                  }
+                },
+                [
+                  _c("span", [_vm._v(_vm._s(flaer.name))]),
+                  _vm._v(" "),
+                  _c("span", [_vm._v(_vm._s(flaer.price))])
+                ]
+              )
+            })
+          ],
+          2
+        ),
+        _vm._v(" "),
+        _c(
+          "td",
+          [
+            _vm._m(11),
+            _vm._v(" "),
+            _vm._l(_vm.flaerEvro100, function(flaer) {
+              return _c(
+                "li",
+                {
+                  staticClass: "services__item",
+                  class: { active: flaer.active },
+                  on: {
+                    click: function($event) {
+                      return _vm.toggleActive(flaer)
+                    }
+                  }
+                },
+                [
+                  _c("span", [_vm._v(_vm._s(flaer.name))]),
+                  _vm._v(" "),
+                  _c("span", [_vm._v(_vm._s(flaer.price))])
+                ]
+              )
+            })
+          ],
+          2
+        ),
+        _vm._v(" "),
+        _c(
+          "td",
+          [
+            _vm._m(12),
+            _vm._v(" "),
+            _vm._l(_vm.flaerEvro300, function(flaer) {
+              return _c(
+                "li",
+                {
+                  staticClass: "services__item",
+                  class: { active: flaer.active },
+                  on: {
+                    click: function($event) {
+                      return _vm.toggleActive(flaer)
+                    }
+                  }
+                },
+                [
+                  _c("span", [_vm._v(_vm._s(flaer.name))]),
+                  _vm._v(" "),
+                  _c("span", [_vm._v(_vm._s(flaer.price))])
+                ]
+              )
+            })
+          ],
+          2
+        ),
+        _vm._v(" "),
+        _c(
+          "td",
+          [
+            _vm._m(13),
+            _vm._v(" "),
+            _vm._l(_vm.flaerEvro500, function(flaer) {
+              return _c(
+                "li",
+                {
+                  staticClass: "services__item",
+                  class: { active: flaer.active },
+                  on: {
+                    click: function($event) {
+                      return _vm.toggleActive(flaer)
+                    }
+                  }
+                },
+                [
+                  _c("span", [_vm._v(_vm._s(flaer.name))]),
+                  _vm._v(" "),
+                  _c("span", [_vm._v(_vm._s(flaer.price))])
+                ]
+              )
+            })
+          ],
+          2
+        ),
+        _vm._v(" "),
+        _c(
+          "td",
+          [
+            _vm._m(14),
+            _vm._v(" "),
+            _vm._l(_vm.flaerEvro1000, function(flaer) {
+              return _c(
+                "li",
+                {
+                  staticClass: "services__item",
+                  class: { active: flaer.active },
+                  on: {
+                    click: function($event) {
+                      return _vm.toggleActive(flaer)
+                    }
+                  }
+                },
+                [
+                  _c("span", [_vm._v(_vm._s(flaer.name))]),
+                  _vm._v(" "),
+                  _c("span", [_vm._v(_vm._s(flaer.price))])
+                ]
+              )
+            })
+          ],
+          2
+        ),
+        _vm._v(" "),
+        _c(
+          "td",
+          [
+            _vm._m(15),
+            _vm._v(" "),
+            _vm._l(_vm.flaerEvro3000, function(flaer) {
+              return _c(
+                "li",
+                {
+                  staticClass: "services__item",
+                  class: { active: flaer.active },
+                  on: {
+                    click: function($event) {
+                      return _vm.toggleActive(flaer)
+                    }
+                  }
+                },
+                [
+                  _c("span", [_vm._v(_vm._s(flaer.name))]),
+                  _vm._v(" "),
+                  _c("span", [_vm._v(_vm._s(flaer.price))])
+                ]
+              )
+            })
+          ],
+          2
+        ),
+        _vm._v(" "),
+        _c(
+          "td",
+          [
+            _vm._m(16),
+            _vm._v(" "),
+            _vm._l(_vm.flaerEvro5000, function(flaer) {
+              return _c(
+                "li",
+                {
+                  staticClass: "services__item",
+                  class: { active: flaer.active },
+                  on: {
+                    click: function($event) {
+                      return _vm.toggleActive(flaer)
+                    }
+                  }
+                },
+                [
+                  _c("span", [_vm._v(_vm._s(flaer.name))]),
+                  _vm._v(" "),
+                  _c("span", [_vm._v(_vm._s(flaer.price))])
+                ]
+              )
+            })
+          ],
+          2
+        ),
+        _vm._v(" "),
+        _c(
+          "td",
+          [
+            _vm._m(17),
+            _vm._v(" "),
+            _vm._l(_vm.flaerEvro10000, function(flaer) {
+              return _c(
+                "li",
+                {
+                  staticClass: "services__item",
+                  class: { active: flaer.active },
+                  on: {
+                    click: function($event) {
+                      return _vm.toggleActive(flaer)
+                    }
+                  }
+                },
+                [
+                  _c("span", [_vm._v(_vm._s(flaer.name))]),
+                  _vm._v(" "),
+                  _c("span", [_vm._v(_vm._s(flaer.price))])
+                ]
+              )
+            })
+          ],
+          2
+        )
+      ])
+    ]),
+    _vm._v(" "),
+    _c("p", { staticClass: "total" }, [
+      _c("span", [_vm._v("Итого за Флаеры (Евро):")]),
+      _vm._v(" "),
+      _c("span", [_vm._v(_vm._s(_vm.totalFlaerEvro()))])
+    ]),
+    _c("p", { staticClass: "total" }, [
+      _c("span", [_vm._v("Итоговая сумма за всё:")]),
+      _vm._v(" "),
+      _c("span", [_vm._v(_vm._s(_vm.totalCards() + _vm.totalFlaerEvro()))])
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("td", [
+      _c("li", { staticClass: "head" }, [
+        _c("span", [_vm._v("Визитки ")]),
+        _vm._v(" "),
+        _c("span", [_vm._v("20x55мм")])
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "head" }, [
+        _c("span", [_vm._v("#01 БЕЛЫЙ БЛЕСК ")]),
+        _vm._v(" "),
+        _c("span", [_vm._v("350г")])
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "head" }, [
+        _c("span", [_vm._v("#02 ЗОЛОТО ")]),
+        _vm._v(" "),
+        _c("span", [_vm._v("350г")])
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "head" }, [
+        _c("span", [_vm._v("#03 СЕРЕБРО ")]),
+        _vm._v(" "),
+        _c("span", [_vm._v("350г")])
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "head" }, [
+        _c("span", [_vm._v("#04 СЕРЕБРИСТЫЙ СИЛК ")]),
+        _vm._v(" "),
+        _c("span", [_vm._v("320г")])
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "head" }, [
+        _c("span", [_vm._v("#05 БЕЛЫЙ ЛИОН ")]),
+        _vm._v(" "),
+        _c("span", [_vm._v("350г")])
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "head" }, [
+        _c("span", [_vm._v("#06 ЁЛОЧКА ")]),
+        _vm._v(" "),
+        _c("span", [_vm._v("350г")])
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "head" }, [
+        _c("span", [_vm._v("#07 МАТОВАЯ БУМАГА ")]),
+        _vm._v(" "),
+        _c("span", [_vm._v("300г")])
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "head" }, [
+        _c("span", [_vm._v("#08 МАТОВАЯ ЛАМИНАЦИЯ ")]),
+        _vm._v(" "),
+        _c("span", [_vm._v("350г")])
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "head" }, [
+        _c("span", [_vm._v("#09 ГЛЯНЦЕВАЯ БУМАГА ")]),
+        _vm._v(" "),
+        _c("span", [_vm._v("350г")])
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "head" }, [
+        _c("span", [_vm._v("#10 ПЛАСТИК  ")]),
+        _vm._v(" "),
+        _c("span", [_vm._v("500г")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "head" }, [_c("span", [_vm._v("50 штук")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "head" }, [_c("span", [_vm._v("100 штук")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "head" }, [_c("span", [_vm._v("300 штук")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "head" }, [_c("span", [_vm._v("500 штук")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "head" }, [
+      _c("span", [_vm._v("1000 штук")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "head" }, [
+      _c("span", [_vm._v("3000 штук")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "head" }, [
+      _c("span", [_vm._v("5000 штук")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "head" }, [
+      _c("span", [_vm._v("10000 штук")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("td", [
+      _c("li", { staticClass: "head" }, [
+        _c("span", [_vm._v("ФЛАЕР(ЕВРО) ")]),
+        _vm._v(" "),
+        _c("span", [_vm._v("210x100мм")])
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "head" }, [
+        _c("span", [_vm._v("Мелованная стр. печать ")]),
+        _vm._v(" "),
+        _c("span", [_vm._v("135г")])
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "head" }, [
+        _c("span"),
+        _vm._v(" "),
+        _c("span", [_vm._v("160г")])
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "head" }, [
+        _c("span"),
+        _vm._v(" "),
+        _c("span", [_vm._v("200г")])
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "head" }, [
+        _c("span", [_vm._v("Меловаенная лаз. печать ")]),
+        _vm._v(" "),
+        _c("span", [_vm._v("115г")])
+      ]),
+      _vm._v(" "),
+      _c("li", { staticClass: "head" }, [
+        _c("span"),
+        _vm._v(" "),
+        _c("span", [_vm._v("160г")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "head" }, [_c("span", [_vm._v("50 штук")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "head" }, [_c("span", [_vm._v("100 штук")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "head" }, [_c("span", [_vm._v("300 штук")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "head" }, [_c("span", [_vm._v("500 штук")])])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "head" }, [
+      _c("span", [_vm._v("1000 штук")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "head" }, [
+      _c("span", [_vm._v("3000 штук")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "head" }, [
+      _c("span", [_vm._v("5000 штук")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", { staticClass: "head" }, [
+      _c("span", [_vm._v("10000 штук")])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&":
 /*!*******************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e& ***!
@@ -66577,6 +68167,7 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 
 Vue.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
 Vue.component('calculator', __webpack_require__(/*! ./components/Calculator.vue */ "./resources/js/components/Calculator.vue")["default"]);
+Vue.component('cell-input', __webpack_require__(/*! ./components/CellInput.vue */ "./resources/js/components/CellInput.vue")["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -66729,6 +68320,75 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Calculator_vue_vue_type_template_id_625bc6ad___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Calculator_vue_vue_type_template_id_625bc6ad___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/CellInput.vue":
+/*!***********************************************!*\
+  !*** ./resources/js/components/CellInput.vue ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _CellInput_vue_vue_type_template_id_302411ad___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CellInput.vue?vue&type=template&id=302411ad& */ "./resources/js/components/CellInput.vue?vue&type=template&id=302411ad&");
+/* harmony import */ var _CellInput_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CellInput.vue?vue&type=script&lang=js& */ "./resources/js/components/CellInput.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _CellInput_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _CellInput_vue_vue_type_template_id_302411ad___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _CellInput_vue_vue_type_template_id_302411ad___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/CellInput.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/CellInput.vue?vue&type=script&lang=js&":
+/*!************************************************************************!*\
+  !*** ./resources/js/components/CellInput.vue?vue&type=script&lang=js& ***!
+  \************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CellInput_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./CellInput.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/CellInput.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CellInput_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/CellInput.vue?vue&type=template&id=302411ad&":
+/*!******************************************************************************!*\
+  !*** ./resources/js/components/CellInput.vue?vue&type=template&id=302411ad& ***!
+  \******************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CellInput_vue_vue_type_template_id_302411ad___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./CellInput.vue?vue&type=template&id=302411ad& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/CellInput.vue?vue&type=template&id=302411ad&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CellInput_vue_vue_type_template_id_302411ad___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CellInput_vue_vue_type_template_id_302411ad___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
