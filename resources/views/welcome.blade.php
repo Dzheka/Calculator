@@ -8,7 +8,8 @@
                     {{--<div class="card-header"></div>--}}
 
                     {{--<div class="card-body">--}}
-                        <cell-input></cell-input>
+                        {{--<cell-input></cell-input>--}}
+                        <calculator></calculator>
                     {{--</div>--}}
                 {{--</div>--}}
             {{--</div>--}}
